@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run C++",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "IPO.cpp",
+        "-o",
+        "IPO.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
