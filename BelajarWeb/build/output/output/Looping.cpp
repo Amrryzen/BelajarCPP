@@ -15,14 +15,14 @@ int main()
     //      printf("%d\n", j++);
     //  }
 
-    // while do
-    //  int k = 1;
-    //  do{
-    //      printf("%d\n", k++);
-    //  }while (k<=10);
+    //while do
+     int k = 1;
+     do{
+         printf("%d\n", k++);
+     }while (k<=10);
 
     // nested loop
-    int tinggi = 5, lebar = 10;
+    /*int tinggi = 5, lebar = 10;
     scanf("%d %d", &tinggi, &lebar);
     getchar();
     for (int i = 0; i < tinggi; ++i)
@@ -47,6 +47,6 @@ int main()
         }
         printf("\n");
     }
-
+*/
     return 0;
 }
